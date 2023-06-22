@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @shratik018
-- 👀 I’m interested in cyber security and android developer .
-- 🌱 I’m currently learning DSA and DevOps
-- 💞️ I’m looking to collaborate on android app
+- 👋 Hi, I’m pratik mahalle
+- 👀 I’m interested in cyber security and full stack web developement .
+- 🌱 I’m currently learning DSA and DevOps.
+- 💞️ I’m looking to collaborate on web development project.
 - 📫 How to reach me ...@shratik18
 
 <!---
