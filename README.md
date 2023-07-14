@@ -1,10 +1,38 @@
-- 👋 Hi, I’m pratik mahalle
-- 👀 I’m interested in cyber security and full stack web developement .
-- 🌱 I’m currently learning DSA and DevOps.
-- 💞️ I’m looking to collaborate on web development project.
-- 📫 How to reach me ...@pratik-mahalle
+Hi, I am Pratik Mahalle! Great to see you here👋
+<br>
+img 
+   src="name: Update README
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    name: Update this repo's README with recent activity
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-<!---
-shratik018/shratik018 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}t" 
+/>
+name: Update README
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    name: Update this repo's README with recent activity
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
